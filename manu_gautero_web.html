@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manu Gautero - Semillas & Bioinsumos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: url('https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    header {
+      background-color: rgba(58, 117, 42, 0.9);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    section {
+      padding: 20px;
+      background-color: rgba(0,0,0,0.5);
+    }
+    .productos {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .producto {
+      background-color: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .producto img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .whatsapp {
+      display: block;
+      width: 90%;
+      max-width: 300px;
+      margin: 30px auto;
+      text-align: center;
+      background-color: #25d366;
+      color: white;
+      padding: 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    form {
+      background-color: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 5px;
+      max-width: 500px;
+      margin: 30px auto;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #3a752a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Manu Gautero</h1>
+    <p>Semillas & Bioinsumos</p>
+  </header>
+
+  <section>
+    <h2>Productos destacados</h2>
+    <div class="productos">
+      <div class="producto">
+        <h3>Z8+ (Silo)</h3>
+        <p>Híbrido RR BT ideal para silo de planta entera. Alta digestibilidad y rendimiento.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Corn_field_close-up.JPG" alt="Campo de maíz">
+      </div>
+      <div class="producto">
+        <h3>Raptor (Grano)</h3>
+        <p>Con tecnología VT3Pro, excelente estabilidad y adaptación a ambientes diversos.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Corn_on_the_cob_closeup.jpg" alt="Choclo">
+      </div>
+      <div class="producto">
+        <h3>X54 (Grano de alto potencial)</h3>
+        <p>Con tecnología Viptera. Máximo rendimiento y sanidad de espiga.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Corncobs.jpg" alt="Espigas de maíz">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <form action="mailto:manu.gautero@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="Nombre" placeholder="Tu nombre" required>
+      <input type="email" name="Email" placeholder="Tu correo electrónico" required>
+      <textarea name="Mensaje" rows="5" placeholder="Escribí tu consulta aquí..." required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <a class="whatsapp" href="https://wa.me/5493516007101" target="_blank">Contactame por WhatsApp</a>
+
+</body>
+</html>
